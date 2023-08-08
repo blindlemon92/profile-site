@@ -8,7 +8,7 @@ export default function Navbar() {
         <span className="text-blue-600">J</span>|B
       </span>
       <div className="flex justify-between px-5">
-        <Link className="p-3 drop-shadow-xl" href="/">
+        <Link className="px-6 drop-shadow-xl" href="/">
           <Image
             className="hover:opacity-20 drop-shadow-xl height:auto width:auto"
             src="/house.svg"
@@ -17,7 +17,7 @@ export default function Navbar() {
             height={30}
           />
         </Link>
-        <Link className="p-3 drop-shadow-xl" href="/projects">
+        <Link className="px-6 drop-shadow-xl" href="/projects">
           <Image
             className="hover:opacity-20 drop-shadow-xl"
             src="/projects.svg"
@@ -26,7 +26,7 @@ export default function Navbar() {
             height={30}
           />
         </Link>
-        <Link className="p-3 drop-shadow-xl" href="/contact">
+        <Link className="px-6 drop-shadow-xl" href="/contact">
           <Image
             className="hover:opacity-20 drop-shadow-xl"
             src="/contact.svg"
